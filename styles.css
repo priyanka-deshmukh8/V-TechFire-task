@@ -27,6 +27,7 @@ header {
     justify-content: center;
     text-align: center;
     padding-bottom: 600px; 
+    background-color: #f9f9f9;
 }
 
 
@@ -105,7 +106,7 @@ section {
 /* Projects Section Styles */
 
 #projects {
-    background-color: #f8f9fa;
+    background-color: #00afaf;
     text-align: center; /* Align content to center */
     padding: 100px 0; /* Adjust padding as needed */
 }
@@ -133,7 +134,7 @@ section {
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;
-    color: #333;
+    color: #ff4b2b;
     margin-bottom: 20px;
 }
 
