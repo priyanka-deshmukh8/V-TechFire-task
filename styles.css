@@ -18,17 +18,53 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     font-weight: 800;
 }
+/* Home Section Styles */
+/* Home Section Styles */
 #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-#home h1 {
-    margin-bottom: 0; /* Remove bottom margin */
-}
 
 #home h4 {
-    margin-top: 0; /* Remove top margin */
+    margin: 0; /* Remove default margins */
+    color:#00afaf;
 }
+
+#home .big-text {
+    font-size: 2.5em; /* Adjust font size as needed */
+}
+
+#home .priority-text {
+    color: #00afaf; /* Set text color to #00afaf */
+}
+
+.main-img {
+    width: 50%; /* Adjust image width as needed */
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.text-container {
+    flex-grow: 1; /* Allow text container to grow */
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.main-img {
+    width: 50%; /* Adjust image width as needed */
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.text-container {
+    flex-grow: 1; /* Allow text container to grow */
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
 nav ul {
     list-style-type: none;
 }
