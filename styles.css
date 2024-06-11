@@ -152,9 +152,33 @@ section {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
+    background-color: #00afaf;
     color: #fff;
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+/* Home Section Styles */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#home h1,
+#home h4 {
+    margin: 0; /* Remove default margins */
+}
+
+.main-img {
+    width: 50%; /* Adjust image width as needed */
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.text-container {
+    flex-grow: 1; /* Allow text container to grow */
+    padding: 0 20px; /* Adjust padding as needed */
 }
