@@ -1,5 +1,6 @@
 /* Reset CSS */
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #c5edf79f;
+    background-color: white;
     color: rgb(255, 72, 0);
 }
 
@@ -15,7 +16,7 @@ body {
 header {
     background-color: #00afaf;
     padding: 20px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding-left: 20px;
     font-weight: 800;
 }
 /* Home Section Styles */
@@ -25,6 +26,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 600px; 
 }
 
 
@@ -45,7 +47,6 @@ header {
     width: 50%; /* Adjust image width as needed */
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .text-container {
@@ -57,7 +58,6 @@ header {
     width: 50%; /* Adjust image width as needed */
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .text-container {
@@ -93,19 +93,21 @@ section {
 /* Home Section Styles */
 #home {
     text-align: center;
+    
 }
 
 .main-img {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* Projects Section Styles */
+
 #projects {
-    background-color: #fff;
-    padding: 50px 0;
+    background-color: #f8f9fa;
+    text-align: center; /* Align content to center */
+    padding: 100px 0; /* Adjust padding as needed */
 }
 
 .project-img {
@@ -124,7 +126,15 @@ section {
 #about {
     background-color: #f9f9f9;
     text-align: center;
-    padding: 50px 0;
+    padding: 100px 0 600px; /* Adjust vertical padding */
+}
+
+.about-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .about-img {
@@ -139,6 +149,7 @@ section {
     margin-top: 20px;
     font-size: 18px;
     line-height: 1.6;
+    color: #333;
 }
 
 /* Contact Section Styles */
@@ -153,7 +164,7 @@ section {
     height: 100px;
     border-radius: 50%;
     border: 5px solid #333;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: none;
     transition: transform 0.3s ease;
 }
 
@@ -192,7 +203,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 /* Home Section Styles */
 #home {
@@ -211,7 +221,6 @@ footer {
     width: 50%; /* Adjust image width as needed */
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .text-container {
